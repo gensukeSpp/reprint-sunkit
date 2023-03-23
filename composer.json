@@ -1,0 +1,5 @@
+{
+  "require-dev": {
+    "smarty/smarty": "^4.3"
+  }
+}

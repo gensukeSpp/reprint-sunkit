@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+	color: #897049;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Meiryo", "Osaka", "Hiragino Kaku Gothic Pro";
+	/*background: #FFFFFF url(../images/bg.jpg) center;*/
+}
+
+#container {
+	width: 670px;
+	position: relative;
+	top: 60px;
+	left: 120px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.upperlogo {
+	background: url(../images/s_sunkit01.jpg);
+	width: 100px;
+	height: 110px;
+	position: relative;
+	top: 20px;
+	left: -50px;
+	float: left;
+}
+h2 {
+	position: relative;
+	top: 60px;
+	right: 45px;
+	color: #696969;
+	font-size: 24px;
+}
+form { 
+	margin: 20px;
+	padding: 0px;
+	color: rgb(94, 87, 87);
+}
+table {
+	border-collapse: separate;
+	font-size: 100%;
+	border-spacing: 1px;
+	margin: 60px 40px 0px;
+	border: solid;
+}
+th {
+    border: 1px solid;
+    text-align: center;
+    width: 170px;
+    background-color: #ecdf2b;
+}
+table tr td {
+    border: 1px solid;
+    /* text-align: center; */
+}
+.send {
+    width: 70px;
+    height: 50px;
+    font-size: 16px;
+	background: #87CEEB;
+	color: #fdf8d0;
+    -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;  
+	border-radius: 8px;
+	cursor: pointer;
+}
+.back {
+	position: relative;
+    width: 60px;
+    height: 40px;
+	left: 20px;
+    -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;  
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+/* send.php */
+.send-report {
+	margin: 30px;
+}
