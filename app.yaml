@@ -2,13 +2,33 @@ runtime: php81 # Replace with php74 to use PHP 7.4
 
 handlers:
 # Serve a directory as a static resource.
-- url: /stylesheets
-  static_dir: stylesheets
+- url: /style
+  mime_type: text/css
+  static_dir: style
+
+- url: /(\w*)/style/(.*\.css)$
+  mime_type: text/css
+  static_files: \1/style/\2
+  upload: (\w*)/style/(.*\.css)$
 
 # Serve images as static resources.
-- url: /(.+\.(gif|png|jpg))$
-  static_files: \1
-  upload: .+\.(gif|png|jpg)$
+- url: /js
+  mime_type: text/javascript
+  static_dir: js
+
+- url: /images
+  static_dir: images
+
+- url: /(\w*)/images/(.*\.(gif|png|jpg|jpeg))
+  static_files: \1/images/\2
+  upload: (\w*)/images/(.*\.(gif|png|jpg|jpeg))
+
+- url: /newphoto
+  static_dir: newphoto
+
+- url: /(\w*)/newphoto/(.*\.(gif|png|jpg|jpeg))
+  static_files: \1/newphoto/\2
+  upload: (\w*)/newphoto/(.*\.(gif|png|jpg|jpeg))
 
 # Serve your app through a front controller at index.php or public/index.php.
 - url: .*
