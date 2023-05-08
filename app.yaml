@@ -1,4 +1,6 @@
-runtime: php81 # Replace with php74 to use PHP 7.4
+# application: reprint-sunkit-hokkaido
+# version: 2
+runtime: php74 # Replace with php74 to use PHP 7.4
 
 handlers:
 # Serve a directory as a static resource.
