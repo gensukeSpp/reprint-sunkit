@@ -28,10 +28,10 @@ handlers:
 - url: /newphoto
   static_dir: newphoto
 
-- url: /(\w*)/newphoto/(.*\.(gif|png|jpg|jpeg))
+- url: /(\w*)/newphoto/*/(.*\.(gif|png|jpg|jpeg))
   static_files: \1/newphoto/\2
-  upload: (\w*)/newphoto/(.*\.(gif|png|jpg|jpeg))
+  upload: (\w*)/newphoto/*/(.*\.(gif|png|jpg|jpeg))
 
 # Serve your app through a front controller at index.php or public/index.php.
-- url: .*
+- url: /.*
   script: auto
