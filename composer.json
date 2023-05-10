@@ -1,8 +1,5 @@
 {
   "require": {
-    "google/cloud": "^0.72"
-  },
-  "require-dev": {
     "smarty/smarty": "^4.3"
   }
 }
