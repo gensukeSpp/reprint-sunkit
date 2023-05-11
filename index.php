@@ -1,12 +1,6 @@
 <?php
 
-	require_once __DIR__ . '/dir_base_www.php';
-	// ini_set( 'display_errors', 3 );
-	// define( 'SMARTY_DIR', __DIR__ . '/vendor/smarty/smarty/libs/' );
-	// require_once __DIR__ . '/vendor/autoload.php';
-	// require_once( SMARTY_DIR .'Smarty.class.php' );
-
-	$smarty = new Smarty();
+	require_once __DIR__ . '/select_req.php';
 
 	$smarty->assign( 'ttl', 'トップページ');
 	$smarty->assign( 'outer', $outer);

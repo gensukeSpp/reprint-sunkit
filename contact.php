@@ -1,6 +1,6 @@
 <?php
 
-require_once('select_req.php');
+require_once __DIR__ . '/select_req.php';
 
 $smarty->assign( 'ttl', 'お問い合わせ');
 $smarty->assign( 'outer', $outer);
