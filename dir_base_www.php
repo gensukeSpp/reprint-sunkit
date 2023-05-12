@@ -10,9 +10,9 @@
 
 	$smarty = new Smarty();
 
-	$smarty->template_dir = __DIR__ . '/templates';
-	$smarty->compile_dir  = __DIR__ . '/templates_c';
-	$smarty->config_dir   = __DIR__ . '/configs';
-	$smarty->cache_dir    = __DIR__ . '/cache';
+	$smarty->template_dir = '/templates/';
+	$smarty->compile_dir  = '/templates_c/';
+	$smarty->config_dir   = '/configs/';
+	$smarty->cache_dir    = '/cache/';
 
 ?>

@@ -7,7 +7,7 @@ ini_set( 'display_errors', 1 );
 // require_once('menu_base.php');
 require_once __DIR__ . '/new_menu.php';
 
-$smarty = new Smarty();
+// $smarty = new Smarty();
 
 $smarty->template_dir = __DIR__ . '/templates';
 $smarty->compile_dir = __DIR__ . '/templates_c';

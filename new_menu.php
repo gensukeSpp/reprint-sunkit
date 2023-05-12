@@ -1,21 +1,21 @@
 <?php
 $outer = array(
-array('link' => 'href="./index.php"', 'menu' =>'トップページ'),
-array('link' => 'id=\"products\"', 'menu' =>'商品情報'),
-array('link' => 'href="./buy.php"', 'menu' =>'お買い物方法'),
-array('link' => 'href="./contact.php"', 'menu' =>'お問い合わせ'),
-array('link' => 'href="./about.php"', 'menu' =>'会社概要'),
-/*array('link' => 'href=\'./recommend.php\'', 'menu' =>'おススメ商品'),
-array('link' => 'id=\'new-p\'', 'menu' =>'新商品'),*/
-array('link' => 'href="./employment.php"', 'menu' =>'採用情報')
+	array('link' => 'href="./index.php"', 'menu' =>'トップページ'),
+	array('link' => 'id=\"products\"', 'menu' =>'商品情報'),
+	array('link' => 'href="./buy.php"', 'menu' =>'お買い物方法'),
+	array('link' => 'href="./contact.php"', 'menu' =>'お問い合わせ'),
+	array('link' => 'href="./about.php"', 'menu' =>'会社概要'),
+	/*array('link' => 'href=\'./recommend.php\'', 'menu' =>'おススメ商品'),
+	array('link' => 'id=\'new-p\'', 'menu' =>'新商品'),*/
+	array('link' => 'href="./employment.php"', 'menu' =>'採用情報')
 );
 $inner = array(
-array('num' => 'F', 'menu' =>'機能性食品'),
-array('num' => 'S', 'menu' =>'お菓子'),
-array('num' => 'C', 'menu' =>'化粧品'),
-array('num' => 'Ap', 'menu' =>'農産品'),
-array('num' => 'Of', 'menu' =>'その他食品'),
-array('num' => 'DD', 'menu' =>'除菌・消臭剤')
+	array('num' => 'F', 'menu' =>'機能性食品'),
+	array('num' => 'S', 'menu' =>'お菓子'),
+	array('num' => 'C', 'menu' =>'化粧品'),
+	array('num' => 'Ap', 'menu' =>'農産品'),
+	array('num' => 'Of', 'menu' =>'その他食品'),
+	array('num' => 'DD', 'menu' =>'除菌・消臭剤')
 );
 
 $class_f = array(

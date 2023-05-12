@@ -1,6 +1,6 @@
 <?php
 
-require_once('select_req.php');
+require_once('dir_base_www.php');
 
 $smarty->assign( 'ttl', 'おススメ商品');
 $smarty->assign( 'outer', $outer);
