@@ -1,6 +1,8 @@
 # application: reprint-sunkit-hokkaido
 # version: 2
-runtime: php82 # Replace with php74 to use PHP 7.4
+runtime: php55 # Replace with php74 to use PHP 7.4
+api_version: 1
+threadsafe: true
 
 handlers:
 # Serve a directory as a static resource.
@@ -31,6 +33,13 @@ handlers:
 - url: /(\w*)/newphoto/*/(.*\.(gif|png|jpg|jpeg))
   static_files: \1/newphoto/\2
   upload: (\w*)/newphoto/*/(.*\.(gif|png|jpg|jpeg))
+
+- url: /recommend_files
+  static_dir: recommend_files
+
+- url: /recommend_files
+  static_files: \1/recommend_files/\2
+  upload: (\w*)/recommend_files/(.*\.html)$
 
 # Serve your app through a front controller at index.php or public/index.php.
 - url: /.*
