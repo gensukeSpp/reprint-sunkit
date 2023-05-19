@@ -1,3 +1,4 @@
 vendor/
 .git/
+templates/
 templates_c/

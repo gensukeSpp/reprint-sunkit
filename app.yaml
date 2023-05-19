@@ -5,6 +5,12 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /
+  script: index.php
+
+- url: /(.+\.php)$
+  script: \1
+  
 # Serve a directory as a static resource.
 - url: /style
   mime_type: text/css
@@ -41,6 +47,10 @@ handlers:
   static_files: \1/recommend_files/\2
   upload: (\w*)/recommend_files/(.*\.html)$
 
+# - url: /favicon\.ico
+#   static_files: images/favicon(1).ico
+#   upload: images/favicon(1)\.ico
+
 # Serve your app through a front controller at index.php or public/index.php.
-- url: /.*
-  script: auto
+# - url: /.*
+#   script: .*
