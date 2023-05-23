@@ -1,5 +1,5 @@
 <div class="fb-img">
-<a href="https://www.facebook.com/sunkithokkaido" target="_blank"></a>
+<a href="#" target="_blank"><img src="../images/fb_sk.png" alt="facebookリンクのバナー"></a>
 </div><!--/fb-img-->
 <div class="chk">
 <a href="./recommend.php"></a>

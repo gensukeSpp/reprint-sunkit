@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="./style/style.css" type="text/css">
 {/block}
 {block name=script}
-<!--all--><script type="text/javascript" src="./js/jquery-2.2.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <!--all--><script type="text/javascript" src="./js/jquery.data_send.v2.js"></script>
 <!--sidebar--><script type="text/javascript" src="./js/jquery.justify.js"></script>
 <script>

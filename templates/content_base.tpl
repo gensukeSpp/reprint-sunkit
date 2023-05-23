@@ -9,7 +9,7 @@
 	<a href="./index.php"></a>
 	</div>
 {block name=head_area}
-	  <p>株式会社サンキット北海道</p>
+	  <p>株式会社○○○○○○○○</p>
 {/block}	
 </header><!--/header-->
 
