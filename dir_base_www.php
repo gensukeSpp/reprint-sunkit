@@ -13,13 +13,14 @@
     //     'projectId' => 'reprint-sunkit',
     //     'keyFile' => json_decode(file_get_contents($auth_key, TRUE), true)
     //  ]);
-    // $storage->registerStreamWrapper();
+    // // $storage->registerStreamWrapper();
 
     // $bucket_name = 'reprint-sunkit.appspot.com';
     // $bucket = $storage->bucket($bucket_name);
-    // $content = file_get_contents($bucket);
+    // $content = file_get_contents($bucket_name());
+	// echo "file_get_contents: " . $content . "<br>";
 
-	require_once __DIR__ . '/new_menu.php';
+	require_once('new_menu.php');
 
 	date_default_timezone_set('Asia/Tokyo');
 
@@ -29,11 +30,7 @@
 	// echo "パーミッションは「" . substr( sprintf( '%o', fileperms($bucket_dir)), -4) . "」<br>";
 	$smarty
 		->setTemplateDir('gs://reprint-sunkit.appspot.com/templates')
-		->setCompileDir('gs://reprint-sunkit.appspot.com/templates_c');
-	// $smarty->config_dir   = '/configs/';
-	// $smarty->setCacheDir(__DIR__ . '/cache');
-    // $smarty->compile_dir="gs://reprint-sunkit.appspot.com/templates_c/"; 
-    // $smarty->cache_dir="gs://reprint-sunkit.appspot.com/cache/";
-
+		->setCompileDir('gs://reprint-sunkit.appspot.com/templates_c')
+		->setCacheDir('gs://reprint-sunkit.appspot.com/cache');
 
 ?>

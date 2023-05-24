@@ -5,7 +5,7 @@
 
 {block name=main}
 
-<p class="gostore"><a href="https://sunkithokkaido.stores.jp/" target="_blank">こちら</a>から商品をご購入いただけます。</p>
+<p class="gostore"><a href="#" target="_blank">こちら</a>から商品をご購入いただけます。</p>
 <div class="green-a"></div>
 
 <div id="trg"><div data-scroll="{$smarty.get.id}"></div></div>

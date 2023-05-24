@@ -15,9 +15,9 @@
 
   <div id="frame-top"></div>
 <h2>お振込先</h2>
-<p><strong>主要取引銀行</strong>　：　北海道銀行白石支店</p>
-<p class="indt"><strong>お支払口座</strong>　：　北海道銀行　白石支店（普通）１３６１５７４<br>
-カ）サンキットホッカイドウ</p>
+<p><strong>主要取引銀行</strong>　：　**銀行**支店</p>
+<p class="indt"><strong>お支払口座</strong>　：　***銀行　**支店（普通）１３****４<br>
+カ）***********</p>
 <p><strong>お取引条件</strong>　：　別途ご相談させて頂きます。</p>
 
   <div id="frame-bottom"></div>

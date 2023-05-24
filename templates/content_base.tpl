@@ -6,7 +6,7 @@
 	
 <header>
 	<div class="hlg">
-	<a href="./index.php"></a>
+	<a href="./index.php"><img src="#" alt="株式会社のメインロゴ" /></a>
 	</div>
 {block name=head_area}
 	  <p>株式会社○○○○○○○○</p>

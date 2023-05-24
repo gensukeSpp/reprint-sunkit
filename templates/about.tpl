@@ -14,7 +14,7 @@
 
   <div id="frame-top"></div>
 <h2>商　号</h2>
-<p>株式会社サンキット北海道</p>
+<p>株式会社○○○○○○○○</p>
   <!--<div id="frame-bottom"></div>-->
 
   <div id="frame-top"></div>

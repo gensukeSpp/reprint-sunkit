@@ -24,7 +24,7 @@
 <body>
 <div id="container">
 <div class="upperlogo"></div>
-<h2>この内容でよろしいですか。</h2>
+<h2>メールは送信されません</h2>
 <form action="send.php" method="post" name="form">
 <table border="1">
   <tr>

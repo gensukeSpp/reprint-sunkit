@@ -48,7 +48,7 @@ $(function(){
 						error: dfd.reject
 					}).then(
 						function(data){
-							console.log(data);
+							// console.log(data);
 							mfr.displayRecommend(data);}, 
 						function(xhr, textStatus, errorThrown){alert('Error! ' + textStatus + ' ' + errorThrown);}
 					);
